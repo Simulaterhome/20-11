@@ -1,0 +1,213 @@
+* {
+    margin: 0 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+#moveUp {
+    visibility: hidden;
+    z-index: 1010;
+    cursor: pointer;
+    position: fixed;
+    bottom: 3vw;
+    right: 3vw;
+    font-size: 2.25vw;
+    padding: 0.5vw;
+    border: 0.2vw solid rgba(255, 255, 255, .5);
+    /* color: #f1f1f1; */
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+
+#moveUp:hover {
+    border: 0.2vw solid rgba(155, 155, 155, 0.5);
+    backdrop-filter: blur(30px);
+}
+
+.hiddenScroll {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+}
+.menu {
+    position: fixed;
+    z-index: 1000;
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+.footer {
+    background-color: aquamarine;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding-top: 2.75vh;
+    padding-bottom: 4vh;
+}
+
+.main-build {
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top {
+    background-image: url("https://scontent.fhan9-1.fna.fbcdn.net/v/t39.30808-6/404286687_888341672974979_6212353228556560590_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_0zQxNigvKS-Ry1mooZ7DFV3RCSR9T68VXdEJJH1Pr4PGMRdLUL4T4gM3DFn1WHrMGV-uHeSbExHHXiE-OXQj&_nc_ohc=93NYhT2sjocQ7kNvgEJmqSG&_nc_zt=23&_nc_ht=scontent.fhan9-1.fna&_nc_gid=AjekYsivTfIXtlps0RzvnVe&oh=00_AYDnfp23bVGs3AbaLj8SPl0nJooSh61rWfQC1ee0ATyKrQ&oe=673AC052");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .history {
+
+} */
+
+.tday {
+    background-color: rgb(253, 210, 225);
+}
+
+.changes {
+    background-color: rgb(187, 200, 211);
+}
+
+.memories {
+    background-color: rgb(252, 220, 160);
+}
+
+.wishes {
+    background-color: rgb(187, 236, 113);
+}
+
+.mid-text {
+    background-color: rgba(51, 50, 50, 0.479);
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 9vw;
+    padding-top: 5vh;
+    padding-left: 3vw;
+    display: flex;
+}
+
+.open {
+    margin-left: 14vw;
+}
+
+.nav {
+    z-index: 1001;
+    position: fixed;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.triangle {
+    width: 30vw;
+    height: 30vh;
+    margin-top: -18vh;
+    margin-left: -13vw;
+    position: fixed;
+    z-index: 1000;
+    transform: rotate(140deg);
+    background-color: rgba(34, 34, 34, 0.623);
+}
+
+.color1 {
+    transition: 1s;
+    transform: scaleX(5vw);
+    color: #fffefe; ;
+}
+
+.color1:hover {
+    transition: .75s;
+    color: #d6d6d6d0; ;
+}
+
+.color2 {
+    color: rgb(48, 48, 48);
+}
+
+.color2:hover {
+    transition: .75s;
+    color: rgb(97, 97, 97);
+}
+
+.pos1 {
+    display: flex;
+    justify-content: center;
+}
+
+.size1 {
+    font-size: 2vw;
+}
+
+.psize1 {
+    width: 2.5vw;
+}
+
+.psize2 {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 1.75vw;
+}
+
+.imgm {
+    position: fixed;
+    margin-top: -3vh;
+    margin-left: -3vw;
+    width: 26vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+.textm {
+    color: rgb(37, 37, 37);
+    position: fixed;
+    font-size: 1vw;
+    font-weight: bold;
+    z-index: 1001;
+    margin-top: 5vh;
+    margin-left: 9vw;
+}
+
+.textm2:hover {
+    cursor: pointer;
+    transition: 1s;
+    color: rgb(128, 128, 128);
+}
+  
+.tajawal-light {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.tajawal-regular {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.hidden {
+    visibility: hidden;
+}
